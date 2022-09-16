@@ -22,12 +22,13 @@
 
 		}
 		.home-button {
-			a {
+			button {
 				margin-bottom: 30px;
 				background-color: $GreenishBlue;
 				padding: 15px 64px;
 				border-radius: 12px;
 				color: $white;
+        border: none;
 			}
 		}
 	}
@@ -54,6 +55,7 @@
             height: 12px;
             background-color: $white;
             margin: 10px auto 0;
+            opacity: 1;
           }
         }
       }

@@ -1138,11 +1138,13 @@ p {
 /* Section */
 section {
   padding: 50px 0px;
-  display: flex;
   align-items: center;
 }
 
 /* Header */
+.header .navbar {
+  padding: 41px 0;
+}
 .header .navbar .container-fluid {
   justify-content: end;
 }
@@ -1167,12 +1169,13 @@ section {
   margin-bottom: 30px;
   font-family: "Helvetica_Neue";
 }
-.home-section-1 .content-section .home-button a {
+.home-section-1 .content-section .home-button button {
   margin-bottom: 30px;
   background-color: #298888;
   padding: 15px 64px;
   border-radius: 12px;
   color: #ffffff;
+  border: none;
 }
 
 /*--### HOME SECTION 2 ###--*/
@@ -1202,6 +1205,7 @@ section {
   height: 12px;
   background-color: #ffffff;
   margin: 10px auto 0;
+  opacity: 1;
 }
 .home-section-2 .container-fluid .col-md-6 .text-section {
   text-align: center;
