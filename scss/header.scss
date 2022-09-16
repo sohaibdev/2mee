@@ -1,0 +1,15 @@
+/* Header */
+.header {
+  .navbar {
+    .container-fluid {
+      justify-content: end;
+      .nav-sign {
+        background-color: #483E3E;
+        padding: 6px 15px;
+        border-radius: 30px;
+        color: white;
+        font-family: $menu-font;
+      }
+    }
+  }
+}

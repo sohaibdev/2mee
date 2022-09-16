@@ -1,0 +1,118 @@
+/*--### HOME SECTION 1 ###--*/
+.home-section-1 {
+	.content-section {
+		.logo {
+			img {
+				width: 300px;
+				margin-bottom: 30px;
+			}
+		}
+		.heading-section {
+			h1 {
+				margin-bottom: 30px;
+				font-family: $heading-font;
+			}
+
+		}
+		.text-section {
+			p {
+				margin-bottom: 30px;
+				font-family: $text-font;
+			}
+
+		}
+		.home-button {
+			a {
+				margin-bottom: 30px;
+				background-color: $GreenishBlue;
+				padding: 15px 64px;
+				border-radius: 12px;
+				color: $white;
+			}
+		}
+	}
+}
+/*--### HOME SECTION 2 ###--*/
+.home-section-2 {
+  padding: 0;
+  .container-fluid {
+    padding: 0;
+    .col-md-6 {
+      padding: 0;
+      .content-section {
+        padding: 50px 0;
+        background-color: $BluishGrey;
+        .heading-section {
+          text-align: center;
+          color: $white;
+          h2 {
+            color: $white;
+            text-align: center;
+          }
+          hr {
+            width: 250px;
+            height: 12px;
+            background-color: $white;
+            margin: 10px auto 0;
+          }
+        }
+      }
+      .text-section {
+        text-align: center;
+		padding: 50px 0;
+        background-color: $black;
+        color: $white;
+        .writer-section {
+          display: flex;
+          justify-content: end;
+		  margin-top: 39px;
+          .writer {
+            text-align: end;
+            margin-right: 12px;
+          }
+        }
+        .image-section {
+          img {
+            width: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+/*--### LOGO SLIDER SECTION ###--*/
+.logoSlider-section {
+  padding: 50px 0px;
+  background-color: $white;
+  .heading-section {
+    h2 {
+      margin-bottom: 16px;
+      &:after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 377px;
+        padding: 0;
+        background-color: $SmokeyGrey;
+        opacity: 0.5;
+        margin-top: 18px;
+      }
+    }
+  }
+
+  .logo-slider {
+    .slide {
+      .logo-wrapper {
+        padding: 0;
+
+        img {
+          width: 160px;
+          height: 75px;
+          margin: 0 auto;
+          object-fit: contain;
+          object-position: bottom;
+        }
+      }
+    }
+  }
+}

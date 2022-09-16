@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  background-color: #241010;
+  .fa-linkedin-in {
+	border: 3px solid white;
+    border-radius: 50%;
+    padding: 2px;
+  }
+}
